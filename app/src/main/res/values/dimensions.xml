@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sensor_name_text_size">16sp</dimen>
+    <dimen name="default_layout_margin_left">5sp</dimen>
+    <dimen name="default_layout_margin_top">5sp</dimen>
+    <dimen name="default_layout_margin_right">5sp</dimen>
+    <dimen name="default_layout_margin_bottom">5sp</dimen>
+    <dimen name="version_image_width">25sp</dimen>
+    <dimen name="version_image_height">25sp</dimen>
+    <dimen name="card_elevation">7sp</dimen>
+    <dimen name="corner_radius">3sp</dimen>
+    <dimen name="dialog_layout_margin_left">5sp</dimen>
+    <dimen name="dialog_layout_margin_top">15sp</dimen>
+    <dimen name="dialog_layout_margin_right">5sp</dimen>
+    <dimen name="dialog_layout_margin_bottom">15sp</dimen>
+    <dimen name="dialog_text_size">12sp</dimen>
+</resources>

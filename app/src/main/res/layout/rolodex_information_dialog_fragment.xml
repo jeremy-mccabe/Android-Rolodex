@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/rolodexItemGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dialog_layout_margin_left"
+        android:layout_marginTop="@dimen/dialog_layout_margin_top"
+        android:layout_marginEnd="@dimen/dialog_layout_margin_right"
+        android:layout_marginBottom="@dimen/dialog_layout_margin_bottom"
+        android:clipChildren="false">
+
+        <EditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:autofillHints=""
+            android:hint="@string/first_name_data"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:minWidth="500sp"
+            android:textSize="14sp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/default_layout_margin_left"
+            android:layout_marginTop="@dimen/default_layout_margin_top"
+            android:layout_marginEnd="@dimen/default_layout_margin_right"
+            android:layout_marginBottom="@dimen/default_layout_margin_bottom"/>
+
+        <EditText
+            android:id="@+id/lastNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/last_name_data"
+            android:inputType="textPersonName"
+            android:minWidth="500sp"
+            android:textSize="14sp"
+            android:autofillHints=""
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/default_layout_margin_left"
+            android:layout_marginTop="@dimen/default_layout_margin_top"
+            android:layout_marginEnd="@dimen/default_layout_margin_right"
+            android:layout_marginBottom="@dimen/default_layout_margin_bottom"/>
+
+        <EditText
+            android:id="@+id/middleNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/middle_name_data"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            android:autofillHints=""
+            android:layout_row="2"
+            android:minWidth="500sp"
+            android:layout_column="0"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/default_layout_margin_left"
+            android:layout_marginTop="@dimen/default_layout_margin_top"
+            android:layout_marginEnd="@dimen/default_layout_margin_right"
+            android:layout_marginBottom="@dimen/default_layout_margin_bottom"/>
+
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/phone_number_data"
+            android:inputType="phone"
+            android:textSize="14sp"
+            android:minWidth="500sp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/default_layout_margin_left"
+            android:layout_marginTop="@dimen/default_layout_margin_top"
+            android:layout_marginEnd="@dimen/default_layout_margin_right"
+            android:layout_marginBottom="@dimen/default_layout_margin_bottom"/>
+
+    </GridLayout>
+
+</LinearLayout>
+

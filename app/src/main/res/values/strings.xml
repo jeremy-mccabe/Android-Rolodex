@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Rolodex</string>
+    <string name="rolodex_add">Add Rolodex</string>
+    <string name="rolodex_edit">Update Rolodex</string>
+
+    <string name="add_menu_item">addMenuItem</string>
+    <string name="edit_menu_item">editMenuItem</string>
+    <string name="delete_menu_item">deleteMenuItem</string>
+    <string name="settings_menu_item">settingsMenuItem</string>
+
+    <string name="contact_name">{contact_name}</string>
+    <string name="contact_phone">{contact_number}</string>
+
+    <string name="first_name_data">First Name</string>
+    <string name="last_name_data">Last Name</string>
+    <string name="middle_name_data">Middle Name</string>
+    <string name="phone_number_data">Phone Number</string>
+
+    <string name="deletion_confirmation_title">CONFIRMATION</string>
+    <string name="deletion_confirmation_message">\nConfirm deletion of the selected \nRolodex item.</string>
+    <string name="invalid_title">ERROR: Contact Requirements.</string>
+    <string name="invalid_message">"
+        \n(MANDATORY)
+        \nFirst Name:     Letters only.\nLast Name:     Letters only.\nPhone:             Numbers only (exactly 10).\n
+        \n(OPTIONAL)
+        \nMiddle Name:    Letters only."</string>
+    <string name="sharedpreferences">SharedPreferences</string>
+    <string name="database">Database</string>
+    <string name="persist_title">Data Persistent Selection</string>
+
+</resources>
